@@ -1,6 +1,6 @@
 import argparse
 
-parser = argparse.ArgumentParser(description='Sequence build')
+parser = argparse.ArgumentParser(description='Is the point on(0) inside(1) or outside (2) the circle')
 parser.add_argument('circle', metavar='c', type=str, help='name of the file with coordinates and radius of the circle')
 parser.add_argument('points', metavar='p', type=str, help='name of the file with coordinates of points')
 args = parser.parse_args()
